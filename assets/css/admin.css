@@ -1,0 +1,23 @@
+.donate {
+   background: #fff;
+   box-shadow: 0 2px 6px rgba(10,10,10,.1);
+   padding: 30px 20px;
+}
+
+.donate h2 {
+   margin: 0
+}
+
+.donate ul {
+   list-style-type: square;
+}
+
+.donate ul li {
+   margin-left: 15px;
+}
+
+@media screen and (max-width: 782px) {
+   .auto-fold #wpcontent {
+       padding-left: 0;
+   }
+}
